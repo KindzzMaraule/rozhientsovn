@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>💥Task 5</title>
+    <link rel="stylesheet" href="u2.css" />
+  </head>
+  <body>
+    <div class="game">
+      <div class="hint none" id="hint">1</div>
+      <input type="number" id="res" class="res none" />
+      <div class="button-container">
+        <button id="button-res" class="button none">Ответить</button>
+        <button id="start" class="button button_delay">Начать</button>
+        <button id="start-2" class="button">Начать вдвоем</button>
+      </div>
+    </div>
+
+    <!-- Лол да он дебил похоже неит -->
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <defs>
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+          <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+        </filter>
+      </defs>
+    </svg>
+
+    <script src="index2.js"></script>
+  </body>
+</html>

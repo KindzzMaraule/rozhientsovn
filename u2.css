@@ -1,0 +1,41 @@
+.button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: white;
+  background-color: blueviolet;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  animation: button 4s infinite;
+}
+.button_delay {
+  animation-delay: 0.5s;
+}
+@keyframes button {
+  50% {
+    transform: scale(1.1);
+  }
+  from,
+  to {
+    transform: scale(1);
+  }
+}
+.none {
+  display: none;
+}
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+body {
+  background-image: url(background13.jpg);
+}
+.button_margin {
+  margin-left: 20px;
+}
+.button-container {
+  filter: url(#goo);
+  display: flex;
+}
