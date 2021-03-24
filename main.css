@@ -59,6 +59,12 @@ body {
     margin-bottom: 15px;
   }
   .header {
+    overflow: auto;
+    justify-content: flex-start;
+    min-width: 100%;
+  }
+  .link {
     padding: 10px;
+    min-width: 100px;
   }
 }
